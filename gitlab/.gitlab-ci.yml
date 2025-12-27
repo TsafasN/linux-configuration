@@ -1,0 +1,3 @@
+variables:
+  # Reference a protected variable set in GitLab UI
+  GITLAB_TOKEN: $GITLAB_TOKEN

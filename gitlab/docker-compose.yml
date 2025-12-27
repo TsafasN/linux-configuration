@@ -1,0 +1,11 @@
+services:
+  myapp:
+
+    # Use environment variables or Docker secrets at runtime, NOT in the Dockerfile:
+
+    # Use environment variables
+    environment:
+      - GITLAB_TOKEN=${GITLAB_TOKEN}
+    # Or use secrets:
+    secrets:
+      - gitlab_token

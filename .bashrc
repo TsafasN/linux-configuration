@@ -31,3 +31,5 @@ alias ct='cargo test'
 . "$HOME/.cargo/env"
 
 eval "$(starship init bash)"
+
+export GITLAB_TOKEN=$(secret-tool lookup application gitlab)
